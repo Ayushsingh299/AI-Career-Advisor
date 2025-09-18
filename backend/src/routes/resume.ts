@@ -283,12 +283,6 @@ router.post('/cover-letter', [
         data: fallbackCoverLetter
       });
     }
-
-    res.status(201).json({
-      success: true,
-      message: 'Cover letter generated successfully',
-      data: coverLetter
-    });
   } catch (error) {
     console.error('Cover letter generation error:', error);
     res.status(500).json({

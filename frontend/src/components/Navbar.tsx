@@ -57,16 +57,25 @@ const Navbar: React.FC = () => {
           >
             🤖 Live Demo
           </Button>
+          <Button 
+            color="inherit" 
+            component={Link} 
+            to="/api-demo"
+            sx={{ 
+              bgcolor: 'rgba(255,165,0,0.2)', 
+              color: '#ff9800',
+              fontWeight: 'bold',
+              '&:hover': { bgcolor: 'rgba(255,165,0,0.3)' } 
+            }}
+          >
+            🔧 API Demo
+          </Button>
           <Button color="inherit" component={Link} to="/assessment">
             Assessment
           </Button>
           <Button color="inherit" component={Link} to="/dashboard">
             Dashboard
           </Button>
-                Dashboard
-              </Button>
-            </>
-          )}
           {currentUser ? (
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
               <Button

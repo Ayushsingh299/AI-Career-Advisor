@@ -26,7 +26,7 @@ router.post('/', [
     const skillsAnalysis = await geminiAI.analyzeSkillsFromAssessment(answers);
     
     // Extract career goals from answers
-    const careerGoals = answers.find(a => a.questionId === 4)?.answer || 'Advance my career';
+    const careerGoals = answers.find((a: any) => a.questionId === 4)?.answer || 'Advance my career';
     
     // Generate AI-powered career matches
     const careerMatches = await geminiAI.generateCareerMatches(

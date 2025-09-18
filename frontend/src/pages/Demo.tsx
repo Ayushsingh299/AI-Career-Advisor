@@ -30,7 +30,6 @@ import {
   Star,
   TrendingUp,
   AttachMoney,
-  LocationOn,
 } from '@mui/icons-material';
 import axios from 'axios';
 

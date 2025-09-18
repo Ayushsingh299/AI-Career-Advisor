@@ -9,6 +9,7 @@ import Assessment from 'pages/Assessment';
 import Dashboard from 'pages/Dashboard';
 import Login from 'pages/Login';
 import Demo from 'pages/Demo';
+import APIDemo from 'pages/APIDemo';
 
 const theme = createTheme({
   palette: {
@@ -35,6 +36,7 @@ function App() {
               <Route path="/assessment" element={<Assessment />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/demo" element={<Demo />} />
+              <Route path="/api-demo" element={<APIDemo />} />
             </Routes>
           </div>
         </Router>
