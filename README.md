@@ -312,6 +312,15 @@ LOG_LEVEL=info
 
 This project was built by a dedicated team of developers:
 
+<!-- 
+TO CUSTOMIZE THE NEW CONTRIBUTOR:
+1. Replace 'NEW_CONTRIBUTOR_USERNAME' with the actual GitHub username
+2. Replace 'New Contributor Name' with the actual name
+3. Replace 'Role/Specialization' with their role (e.g., 'UI/UX Designer', 'Data Scientist', etc.)
+4. Replace '🎯 Contribution Area' with appropriate emoji and description
+5. Update the contribution areas section with their specific expertise
+-->
+
 ### **Core Development Team**
 
 <table>
@@ -334,6 +343,8 @@ This project was built by a dedicated team of developers:
 🎨 UI/UX & React Development<br />
 <a href="https://github.com/himaaanshuu">@himaaanshuu</a>
 </td>
+</tr>
+<tr>
 <td align="center">
 <a href="https://github.com/jagmohanjha">
 <img src="https://github.com/jagmohanjha.png" width="100px;" alt="Jagmohan Jha"/><br />
@@ -343,6 +354,15 @@ This project was built by a dedicated team of developers:
 ⚙️ CI/CD & System Optimization<br />
 <a href="https://github.com/jagmohanjha">@jagmohanjha</a>
 </td>
+<td align="center">
+<a href="https://github.com/NEW_CONTRIBUTOR_USERNAME">
+<img src="https://github.com/NEW_CONTRIBUTOR_USERNAME.png" width="100px;" alt="New Contributor Name"/><br />
+<sub><b>New Contributor Name</b></sub>
+</a><br />
+<i>Role/Specialization</i><br />
+🎯 Contribution Area<br />
+<a href="https://github.com/NEW_CONTRIBUTOR_USERNAME">@NEW_CONTRIBUTOR_USERNAME</a>
+</td>
 </tr>
 </table>
 
@@ -350,6 +370,7 @@ This project was built by a dedicated team of developers:
 - 🔗 **Aayush Gaira:** [https://github.com/Aayush-Gaira](https://github.com/Aayush-Gaira)
 - 🔗 **Himanshu:** [https://github.com/himaaanshuu](https://github.com/himaaanshuu)
 - 🔗 **Jagmohan Jha:** [https://github.com/jagmohanjha](https://github.com/jagmohanjha)
+- 🔗 **New Contributor:** [https://github.com/NEW_CONTRIBUTOR_USERNAME](https://github.com/NEW_CONTRIBUTOR_USERNAME)
 
 ### **Contribution Areas**
 - **🤖 AI Development:** Multi-agent pipeline design and implementation
@@ -358,6 +379,7 @@ This project was built by a dedicated team of developers:
 - **🚀 DevOps & CI/CD:** GitHub Actions, deployment automation, system optimization
 - **🧪 Quality Assurance:** Testing, performance optimization, code quality
 - **📚 Documentation:** Technical guides, API docs, deployment instructions
+- **🎯 Specialized Contribution:** [Describe the new contributor's specific area of expertise]
 
 ---
 
