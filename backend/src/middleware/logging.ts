@@ -97,7 +97,7 @@ export const errorLogger = (err: any, req: Request, res: Response, next: NextFun
 
 // AI operation logging
 export const logAIOperation = (operation: string, input: any, output?: any, duration?: number, error?: any) => {
-  const logData = {
+  const logData: any = {
     operation,
     input: {
       type: typeof input,
