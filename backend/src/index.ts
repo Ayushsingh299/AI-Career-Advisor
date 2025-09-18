@@ -55,19 +55,22 @@ app.get('/api/v1', (req, res) => {
   });
 });
 
-// Future route imports will go here
-// import authRoutes from './routes/auth';
+// Route imports
+import authRoutes from './routes/auth';
+import skillsRoutes from './routes/skills';
+import assessmentRoutes from './routes/assessments';
+// TODO: Add remaining routes
 // import userRoutes from './routes/users';
-// import skillsRoutes from './routes/skills';
 // import careersRoutes from './routes/careers';
-// import assessmentRoutes from './routes/assessments';
 // import recommendationRoutes from './routes/recommendations';
 
-// app.use('/api/v1/auth', authRoutes);
+// Apply routes
+app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/skills', skillsRoutes);
+app.use('/api/v1/assessments', assessmentRoutes);
+// TODO: Add remaining routes when created
 // app.use('/api/v1/users', userRoutes);
-// app.use('/api/v1/skills', skillsRoutes);
 // app.use('/api/v1/careers', careersRoutes);
-// app.use('/api/v1/assessments', assessmentRoutes);
 // app.use('/api/v1/recommendations', recommendationRoutes);
 
 // Error handling middleware

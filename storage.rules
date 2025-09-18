@@ -1,0 +1,34 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Users can upload their own profile pictures and resumes
+    match /users/{userId}/{allPaths=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Public assets that anyone can read
+    match /public/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    // Assessment-related files
+    match /assessments/{userId}/{allPaths=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Limit file size to 10MB and allow specific file types
+    function isValidFile() {
+      return request.resource.size < 10 * 1024 * 1024 && 
+             request.resource.contentType.matches('image/.*|application/pdf|text/plain');
+    }
+    
+    // Apply file validation to user uploads
+    match /users/{userId}/{allPaths=**} {
+      allow write: if request.auth != null && 
+                     request.auth.uid == userId && 
+                     isValidFile();
+    }
+  }
+}

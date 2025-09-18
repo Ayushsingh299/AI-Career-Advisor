@@ -1,0 +1,47 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "assessments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "skills",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "trending",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "demandGrowth",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "careers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "requiredSkills",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "jobDemand",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
