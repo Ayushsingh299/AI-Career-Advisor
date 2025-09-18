@@ -215,15 +215,6 @@ const APIDemo: React.FC = () => {
     navigator.clipboard.writeText(text);
   };
   
-  // Check backend status
-  const checkBackendStatus = async () => {
-    try {
-      const response = await axios.get(`${API_BASE_URL}/health`, { timeout: 5000 });
-      return { online: true, status: response.data };
-    } catch (error: any) {
-      return { online: false, error: error.message };
-    }
-  };
 
   const curlCommand = `curl -X POST ${API_BASE_URL}/api/v1/recommendations/career \\
   -H "Content-Type: application/json" \\

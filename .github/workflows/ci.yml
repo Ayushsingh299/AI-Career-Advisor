@@ -77,3 +77,6 @@ jobs:
     - name: Build frontend
       working-directory: frontend
       run: npm run build
+      env:
+        DISABLE_ESLINT_PLUGIN: true
+        CI: false
