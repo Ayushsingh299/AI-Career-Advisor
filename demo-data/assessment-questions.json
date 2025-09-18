@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "type": "multiple-choice",
+    "category": "Technical Skills",
+    "question": "Which programming language are you most proficient in?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "C#",
+      "Go",
+      "Other"
+    ],
+    "weight": 10
+  },
+  {
+    "id": 2,
+    "type": "scale",
+    "category": "Problem Solving",
+    "question": "Rate your problem-solving abilities (1-10)",
+    "min": 1,
+    "max": 10,
+    "weight": 15
+  },
+  {
+    "id": 3,
+    "type": "multiple-choice",
+    "category": "Team Collaboration",
+    "question": "How do you prefer to work?",
+    "options": [
+      "Independently",
+      "In small teams (2-4)",
+      "In large teams (5+)",
+      "Mixed approach"
+    ],
+    "weight": 8
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "category": "Career Goals",
+    "question": "Describe your ideal role in 5 years",
+    "weight": 12
+  },
+  {
+    "id": 5,
+    "type": "multiple-select",
+    "category": "Technologies",
+    "question": "Which technologies have you worked with? (Select all that apply)",
+    "options": [
+      "React",
+      "Vue.js",
+      "Angular",
+      "Node.js",
+      "Express",
+      "Django",
+      "Flask",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "weight": 10
+  }
+]

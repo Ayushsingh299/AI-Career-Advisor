@@ -50,6 +50,7 @@ app.get('/api/v1', (req, res) => {
       skills: '/api/v1/skills',
       careers: '/api/v1/careers',
       assessments: '/api/v1/assessments',
+      resume: '/api/v1/resume',
       recommendations: '/api/v1/recommendations'
     }
   });
@@ -59,18 +60,20 @@ app.get('/api/v1', (req, res) => {
 import authRoutes from './routes/auth';
 import skillsRoutes from './routes/skills';
 import assessmentRoutes from './routes/assessments';
+import careersRoutes from './routes/careers';
+import resumeRoutes from './routes/resume';
 // TODO: Add remaining routes
 // import userRoutes from './routes/users';
-// import careersRoutes from './routes/careers';
 // import recommendationRoutes from './routes/recommendations';
 
 // Apply routes
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/skills', skillsRoutes);
 app.use('/api/v1/assessments', assessmentRoutes);
+app.use('/api/v1/careers', careersRoutes);
+app.use('/api/v1/resume', resumeRoutes);
 // TODO: Add remaining routes when created
 // app.use('/api/v1/users', userRoutes);
-// app.use('/api/v1/careers', careersRoutes);
 // app.use('/api/v1/recommendations', recommendationRoutes);
 
 // Error handling middleware

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "frontend-to-fullstack",
+    "title": "Frontend to Full-Stack Developer",
+    "description": "Transition from frontend development to full-stack capabilities",
+    "currentRole": "Frontend Developer",
+    "targetRole": "Full-Stack Developer",
+    "duration": "12-18 months",
+    "steps": [
+      {
+        "phase": "Backend Fundamentals",
+        "duration": "3-4 months",
+        "skills": [
+          "Node.js",
+          "Express.js",
+          "RESTful APIs"
+        ],
+        "resources": [
+          "Node.js Course",
+          "Express.js Documentation",
+          "REST API Best Practices"
+        ]
+      },
+      {
+        "phase": "Database Integration",
+        "duration": "2-3 months",
+        "skills": [
+          "SQL",
+          "PostgreSQL",
+          "MongoDB"
+        ],
+        "resources": [
+          "Database Design Course",
+          "SQL Practice",
+          "MongoDB University"
+        ]
+      },
+      {
+        "phase": "DevOps Basics",
+        "duration": "3-4 months",
+        "skills": [
+          "Docker",
+          "Git",
+          "CI/CD"
+        ],
+        "resources": [
+          "Docker Tutorial",
+          "Git Advanced",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "phase": "Full-Stack Projects",
+        "duration": "4-6 months",
+        "skills": [
+          "System Design",
+          "Testing",
+          "Deployment"
+        ],
+        "resources": [
+          "Build Full-Stack Apps",
+          "System Design Primer",
+          "Testing Best Practices"
+        ]
+      }
+    ],
+    "difficulty": "Intermediate",
+    "marketDemand": "High",
+    "salaryIncrease": "15-25%"
+  },
+  {
+    "id": "analyst-to-scientist",
+    "title": "Data Analyst to Data Scientist",
+    "description": "Advance from data analysis to machine learning and predictive modeling",
+    "currentRole": "Data Analyst",
+    "targetRole": "Data Scientist",
+    "duration": "18-24 months",
+    "steps": [
+      {
+        "phase": "Advanced Python",
+        "duration": "2-3 months",
+        "skills": [
+          "Advanced Python",
+          "NumPy",
+          "SciPy"
+        ],
+        "resources": [
+          "Python for Data Science",
+          "NumPy Tutorial",
+          "Scientific Python"
+        ]
+      },
+      {
+        "phase": "Machine Learning",
+        "duration": "6-8 months",
+        "skills": [
+          "Scikit-learn",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "resources": [
+          "ML Course by Andrew Ng",
+          "Hands-On ML",
+          "Deep Learning Specialization"
+        ]
+      },
+      {
+        "phase": "Statistics & Math",
+        "duration": "4-5 months",
+        "skills": [
+          "Statistics",
+          "Linear Algebra",
+          "Calculus"
+        ],
+        "resources": [
+          "Statistics for Data Science",
+          "Khan Academy Math",
+          "Statistical Inference"
+        ]
+      },
+      {
+        "phase": "MLOps & Deployment",
+        "duration": "6-8 months",
+        "skills": [
+          "MLflow",
+          "Kubeflow",
+          "Model Deployment"
+        ],
+        "resources": [
+          "MLOps Zoomcamp",
+          "Model Deployment Guide",
+          "Production ML Systems"
+        ]
+      }
+    ],
+    "difficulty": "Advanced",
+    "marketDemand": "Very High",
+    "salaryIncrease": "30-50%"
+  }
+]

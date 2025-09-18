@@ -1,0 +1,95 @@
+[
+  {
+    "id": "demo-user-1",
+    "email": "sarah.tech@example.com",
+    "name": "Sarah Johnson",
+    "title": "Frontend Developer",
+    "bio": "Passionate frontend developer with 3 years of experience building modern web applications",
+    "location": "San Francisco, CA",
+    "skills": [
+      "JavaScript",
+      "React",
+      "CSS",
+      "HTML",
+      "TypeScript",
+      "Git"
+    ],
+    "experience": [
+      {
+        "company": "TechStart Inc.",
+        "position": "Frontend Developer",
+        "duration": "2021 - Present",
+        "description": "Building responsive React applications for B2B clients"
+      }
+    ],
+    "education": {
+      "degree": "BS Computer Science",
+      "institution": "UC Berkeley",
+      "year": "2021"
+    },
+    "assessmentScore": 85,
+    "careerGoal": "Senior Frontend Developer"
+  },
+  {
+    "id": "demo-user-2",
+    "email": "mike.data@example.com",
+    "name": "Mike Chen",
+    "title": "Data Analyst",
+    "bio": "Data-driven professional with expertise in Python and machine learning",
+    "location": "Seattle, WA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Matplotlib",
+      "Statistics",
+      "Excel"
+    ],
+    "experience": [
+      {
+        "company": "DataCorp",
+        "position": "Junior Data Analyst",
+        "duration": "2022 - Present",
+        "description": "Analyzing customer data to drive business decisions"
+      }
+    ],
+    "education": {
+      "degree": "MS Data Science",
+      "institution": "University of Washington",
+      "year": "2022"
+    },
+    "assessmentScore": 78,
+    "careerGoal": "Senior Data Scientist"
+  },
+  {
+    "id": "demo-user-3",
+    "email": "alex.product@example.com",
+    "name": "Alex Rivera",
+    "title": "Product Manager",
+    "bio": "Strategic product manager with a background in both technical and business domains",
+    "location": "Austin, TX",
+    "skills": [
+      "Strategy",
+      "Analytics",
+      "Agile",
+      "User Research",
+      "SQL",
+      "Figma"
+    ],
+    "experience": [
+      {
+        "company": "ProductCo",
+        "position": "Associate Product Manager",
+        "duration": "2020 - Present",
+        "description": "Managing product roadmap for SaaS platform"
+      }
+    ],
+    "education": {
+      "degree": "MBA",
+      "institution": "UT Austin",
+      "year": "2020"
+    },
+    "assessmentScore": 92,
+    "careerGoal": "VP of Product"
+  }
+]

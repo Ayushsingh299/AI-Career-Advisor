@@ -1,0 +1,53 @@
+{
+  "topEmployers": [
+    {
+      "name": "Google",
+      "size": "Large",
+      "industry": "Technology",
+      "locations": [
+        "Mountain View",
+        "Seattle",
+        "New York"
+      ],
+      "openRoles": 1200,
+      "averageSalary": 165000,
+      "culture": "Innovation-focused, collaborative, competitive"
+    },
+    {
+      "name": "Microsoft",
+      "size": "Large",
+      "industry": "Technology",
+      "locations": [
+        "Redmond",
+        "San Francisco",
+        "Austin"
+      ],
+      "openRoles": 800,
+      "averageSalary": 155000,
+      "culture": "Inclusive, growth mindset, work-life balance"
+    },
+    {
+      "name": "Airbnb",
+      "size": "Medium",
+      "industry": "Travel Tech",
+      "locations": [
+        "San Francisco",
+        "Remote"
+      ],
+      "openRoles": 150,
+      "averageSalary": 145000,
+      "culture": "Mission-driven, creative, global perspective"
+    }
+  ],
+  "startupTrends": {
+    "hotSectors": [
+      "AI/ML",
+      "Fintech",
+      "HealthTech",
+      "Climate Tech",
+      "EdTech"
+    ],
+    "fundingTrends": "AI startups raised $25B in 2024, 40% increase from 2023",
+    "jobGrowth": "Startup job postings up 18% year-over-year"
+  }
+}

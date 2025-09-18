@@ -1,0 +1,72 @@
+{
+  "platforms": [
+    {
+      "name": "Coursera",
+      "type": "MOOC",
+      "specialties": [
+        "Data Science",
+        "Business",
+        "Computer Science"
+      ]
+    },
+    {
+      "name": "Udemy",
+      "type": "Online Courses",
+      "specialties": [
+        "Programming",
+        "Design",
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Pluralsight",
+      "type": "Tech Training",
+      "specialties": [
+        "Software Development",
+        "IT",
+        "Data"
+      ]
+    },
+    {
+      "name": "LinkedIn Learning",
+      "type": "Professional",
+      "specialties": [
+        "Business Skills",
+        "Technology",
+        "Creative"
+      ]
+    },
+    {
+      "name": "FreeCodeCamp",
+      "type": "Free",
+      "specialties": [
+        "Web Development",
+        "Data Science",
+        "Programming"
+      ]
+    }
+  ],
+  "courses": {
+    "Frontend Developer": [
+      "React - The Complete Guide",
+      "Advanced CSS and Sass",
+      "JavaScript ES6+ Masterclass",
+      "Modern Web Design",
+      "Testing React Applications"
+    ],
+    "Data Scientist": [
+      "Machine Learning A-Z",
+      "Python for Data Science",
+      "Deep Learning Specialization",
+      "Statistics for Data Science",
+      "SQL for Data Analysis"
+    ],
+    "Product Manager": [
+      "Product Management Fundamentals",
+      "User Research Methods",
+      "Data-Driven Product Management",
+      "Agile Product Development",
+      "Strategic Product Leadership"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "hotSkills": [
+    {
+      "skill": "Artificial Intelligence",
+      "growth": "+42%",
+      "demand": "Very High"
+    },
+    {
+      "skill": "Cloud Computing",
+      "growth": "+35%",
+      "demand": "Very High"
+    },
+    {
+      "skill": "Cybersecurity",
+      "growth": "+28%",
+      "demand": "High"
+    },
+    {
+      "skill": "Data Science",
+      "growth": "+22%",
+      "demand": "Very High"
+    },
+    {
+      "skill": "DevOps",
+      "growth": "+20%",
+      "demand": "High"
+    },
+    {
+      "skill": "Mobile Development",
+      "growth": "+18%",
+      "demand": "High"
+    },
+    {
+      "skill": "React",
+      "growth": "+15%",
+      "demand": "High"
+    },
+    {
+      "skill": "Python",
+      "growth": "+12%",
+      "demand": "Very High"
+    }
+  ],
+  "salaryRanges": {
+    "Frontend Developer": {
+      "min": 75000,
+      "max": 120000,
+      "median": 95000
+    },
+    "Backend Developer": {
+      "min": 80000,
+      "max": 130000,
+      "median": 105000
+    },
+    "Full Stack Developer": {
+      "min": 85000,
+      "max": 140000,
+      "median": 110000
+    },
+    "Data Scientist": {
+      "min": 95000,
+      "max": 165000,
+      "median": 130000
+    },
+    "DevOps Engineer": {
+      "min": 90000,
+      "max": 150000,
+      "median": 120000
+    },
+    "Product Manager": {
+      "min": 100000,
+      "max": 180000,
+      "median": 140000
+    },
+    "UX Designer": {
+      "min": 70000,
+      "max": 110000,
+      "median": 90000
+    },
+    "Software Architect": {
+      "min": 130000,
+      "max": 200000,
+      "median": 165000
+    }
+  },
+  "remoteWork": {
+    "percentage": 85,
+    "fullyRemote": 45,
+    "hybrid": 40,
+    "trends": "Remote work opportunities continue to grow, especially in tech sector"
+  },
+  "jobGrowth": {
+    "Software Development": "+22%",
+    "Data Science": "+35%",
+    "Cybersecurity": "+33%",
+    "Cloud Computing": "+28%",
+    "AI/ML": "+40%"
+  }
+}

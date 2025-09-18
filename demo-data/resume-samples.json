@@ -1,0 +1,25 @@
+{
+  "formats": [
+    "Modern",
+    "Executive",
+    "Creative",
+    "Academic",
+    "Technical"
+  ],
+  "sections": [
+    "Contact",
+    "Summary",
+    "Experience",
+    "Skills",
+    "Education",
+    "Projects",
+    "Certifications"
+  ],
+  "tips": [
+    "Use action verbs to describe achievements",
+    "Quantify results with specific metrics",
+    "Tailor content to job requirements",
+    "Keep formatting clean and consistent",
+    "Include relevant keywords for ATS optimization"
+  ]
+}

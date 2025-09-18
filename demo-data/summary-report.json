@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2025-09-18T10:08:51.271Z",
+  "totalUsers": 3,
+  "totalQuestions": 5,
+  "totalCareerPaths": 2,
+  "totalCompanies": 3,
+  "dataSetsSummary": {
+    "users": "Complete user profiles with skills and career goals",
+    "assessments": "Multi-category assessment questions with weights",
+    "careerPaths": "Detailed progression paths with learning resources",
+    "marketTrends": "Current industry trends and salary data",
+    "resumeSamples": "Professional resume templates and tips",
+    "learningResources": "Curated learning platforms and courses",
+    "companies": "Major employers and startup ecosystem data"
+  },
+  "usage": {
+    "frontend": "Import data for demo mode and UI testing",
+    "backend": "Use for API responses and database seeding",
+    "presentations": "Showcase real-world data and user scenarios"
+  }
+}
