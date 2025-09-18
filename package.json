@@ -1,0 +1,53 @@
+{
+  "name": "career-skills-advisor",
+  "version": "1.0.0",
+  "description": "AI-powered personalized career and skills advisor platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend && npm run test",
+    "deploy": "npm run build && gcloud app deploy",
+    "setup": "npm run setup:frontend && npm run setup:backend",
+    "setup:frontend": "cd frontend && npm install",
+    "setup:backend": "cd backend && npm install",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:backend": "cd backend && npm run lint"
+  },
+  "keywords": [
+    "AI",
+    "career-advisor",
+    "skills-assessment",
+    "google-cloud",
+    "machine-learning",
+    "education",
+    "job-market",
+    "personalization"
+  ],
+  "author": "Career Skills Advisor Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/career-skills-advisor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/career-skills-advisor/issues"
+  },
+  "homepage": "https://github.com/your-username/career-skills-advisor#readme"
+}
