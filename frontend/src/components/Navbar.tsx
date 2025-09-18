@@ -46,12 +46,23 @@ const Navbar: React.FC = () => {
           <Button color="inherit" component={Link} to="/">
             Home
           </Button>
-          {currentUser && (
-            <>
-              <Button color="inherit" component={Link} to="/assessment">
-                Assessment
-              </Button>
-              <Button color="inherit" component={Link} to="/dashboard">
+          <Button 
+            color="inherit" 
+            component={Link} 
+            to="/demo"
+            sx={{ 
+              bgcolor: 'rgba(255,255,255,0.1)', 
+              '&:hover': { bgcolor: 'rgba(255,255,255,0.2)' } 
+            }}
+          >
+            🤖 Live Demo
+          </Button>
+          <Button color="inherit" component={Link} to="/assessment">
+            Assessment
+          </Button>
+          <Button color="inherit" component={Link} to="/dashboard">
+            Dashboard
+          </Button>
                 Dashboard
               </Button>
             </>

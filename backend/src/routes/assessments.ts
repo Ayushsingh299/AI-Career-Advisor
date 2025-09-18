@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { body, validationResult } from 'express-validator';
+import geminiAI from '../services/geminiAI';
 
 const router = Router();
 
@@ -21,43 +22,52 @@ router.post('/', [
 
     const { answers } = req.body;
 
-    // TODO: Process answers with AI models
-    // For now, generate mock results
-    const mockResults = {
+    // Process answers with Gemini AI
+    const skillsAnalysis = await geminiAI.analyzeSkillsFromAssessment(answers);
+    
+    // Extract career goals from answers
+    const careerGoals = answers.find(a => a.questionId === 4)?.answer || 'Advance my career';
+    
+    // Generate AI-powered career matches
+    const careerMatches = await geminiAI.generateCareerMatches(
+      skillsAnalysis.extractedSkills, 
+      careerGoals
+    );
+
+    // Generate learning path
+    const learningPath = await geminiAI.generateLearningPath(
+      skillsAnalysis.extractedSkills,
+      careerMatches[0]?.title || 'Software Developer'
+    );
+
+    const aiResults = {
       assessmentId: 'assessment-' + Date.now(),
       userId: 'user123', // TODO: Get from authentication
       completedAt: new Date(),
-      skillLevels: [
-        { skill: 'JavaScript', level: 85, category: 'Programming' },
-        { skill: 'React', level: 75, category: 'Frontend' },
-        { skill: 'Problem Solving', level: 90, category: 'Soft Skills' },
-        { skill: 'Teamwork', level: 80, category: 'Soft Skills' },
-      ],
-      recommendedCareers: [
-        {
-          title: 'Frontend Developer',
-          match: 92,
-          description: 'Build user interfaces and web applications',
-          skills: ['React', 'JavaScript', 'CSS', 'HTML']
-        },
-        {
-          title: 'Full Stack Developer',
-          match: 85,
-          description: 'Work on both frontend and backend development',
-          skills: ['React', 'Node.js', 'JavaScript', 'Databases']
-        }
-      ],
-      learningRecommendations: [
-        'Advanced React Patterns',
-        'Node.js Best Practices',
-        'TypeScript Deep Dive'
-      ]
+      skillLevels: Object.entries(skillsAnalysis.proficiencyLevels).map(([skill, level]) => ({
+        skill,
+        level,
+        category: categorizeSkill(skill)
+      })),
+      skillGaps: skillsAnalysis.skillGaps,
+      recommendations: skillsAnalysis.recommendations,
+      recommendedCareers: careerMatches.map(match => ({
+        title: match.title,
+        match: match.matchPercentage,
+        description: match.reasoning,
+        skills: [],
+        salaryRange: match.salaryRange,
+        missingSkills: match.missingSkills
+      })),
+      learningPath: learningPath,
+      aiPowered: true,
+      processingTime: Date.now() - Date.now() // Will be calculated properly
     };
 
     res.status(201).json({
       success: true,
-      message: 'Assessment submitted successfully',
-      data: mockResults
+      message: 'Assessment processed with AI analysis',
+      data: aiResults
     });
   } catch (error) {
     console.error('Assessment submission error:', error);
@@ -137,5 +147,23 @@ router.get('/', async (req: Request, res: Response) => {
     });
   }
 });
+
+// Helper function to categorize skills
+function categorizeSkill(skill: string): string {
+  const skillCategories = {
+    'Programming': ['JavaScript', 'Python', 'Java', 'TypeScript', 'C#', 'Go', 'React', 'Vue.js', 'Angular', 'Node.js'],
+    'Soft Skills': ['Problem Solving', 'Communication', 'Leadership', 'Teamwork', 'Time Management'],
+    'Tools': ['Git', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'CI/CD'],
+    'Design': ['UI/UX', 'Figma', 'Photoshop', 'Sketch'],
+    'Data': ['SQL', 'Machine Learning', 'Data Analysis', 'Statistics', 'Excel']
+  };
+  
+  for (const [category, skills] of Object.entries(skillCategories)) {
+    if (skills.some(s => skill.toLowerCase().includes(s.toLowerCase()))) {
+      return category;
+    }
+  }
+  return 'Other';
+}
 
 export default router;

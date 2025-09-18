@@ -19,7 +19,13 @@
     "setup:backend": "cd backend && npm install",
     "lint": "npm run lint:frontend && npm run lint:backend",
     "lint:frontend": "cd frontend && npm run lint",
-    "lint:backend": "cd backend && npm run lint"
+    "lint:backend": "cd backend && npm run lint",
+    "deploy": "node scripts/deploy.js",
+    "test:demo": "node scripts/test-demo.js",
+    "demo:data": "node scripts/demo-data.js",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm run dev"
   },
   "keywords": [
     "AI",
