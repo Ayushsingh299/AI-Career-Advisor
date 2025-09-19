@@ -312,14 +312,6 @@ LOG_LEVEL=info
 
 This project was built by a dedicated team of developers:
 
-<!-- 
-TO CUSTOMIZE THE NEW CONTRIBUTOR:
-1. Replace 'NEW_CONTRIBUTOR_USERNAME' with the actual GitHub username
-2. Replace 'New Contributor Name' with the actual name
-3. Replace 'Role/Specialization' with their role (e.g., 'UI/UX Designer', 'Data Scientist', etc.)
-4. Replace '🎯 Contribution Area' with appropriate emoji and description
-5. Update the contribution areas section with their specific expertise
--->
 
 ### **Core Development Team**
 
@@ -355,13 +347,13 @@ TO CUSTOMIZE THE NEW CONTRIBUTOR:
 <a href="https://github.com/jagmohanjha">@jagmohanjha</a>
 </td>
 <td align="center">
-<a href="https://github.com/NEW_CONTRIBUTOR_USERNAME">
-<img src="https://github.com/NEW_CONTRIBUTOR_USERNAME.png" width="100px;" alt="New Contributor Name"/><br />
-<sub><b>New Contributor Name</b></sub>
+<a href="https://github.com/Rehan-Chaudhary">
+<img src="https://github.com/Rehan-Chaudhary.png" width="100px;" alt="Rehan Chaudhary"/><br />
+<sub><b>Rehan Chaudhary</b></sub>
 </a><br />
-<i>Role/Specialization</i><br />
-🎯 Contribution Area<br />
-<a href="https://github.com/NEW_CONTRIBUTOR_USERNAME">@NEW_CONTRIBUTOR_USERNAME</a>
+<i>Software Developer</i><br />
+💻 Code Optimization & Development<br />
+<a href="https://github.com/Rehan-Chaudhary">@Rehan-Chaudhary</a>
 </td>
 </tr>
 </table>
@@ -370,7 +362,7 @@ TO CUSTOMIZE THE NEW CONTRIBUTOR:
 - 🔗 **Aayush Gaira:** [https://github.com/Aayush-Gaira](https://github.com/Aayush-Gaira)
 - 🔗 **Himanshu:** [https://github.com/himaaanshuu](https://github.com/himaaanshuu)
 - 🔗 **Jagmohan Jha:** [https://github.com/jagmohanjha](https://github.com/jagmohanjha)
-- 🔗 **New Contributor:** [https://github.com/NEW_CONTRIBUTOR_USERNAME](https://github.com/NEW_CONTRIBUTOR_USERNAME)
+- 🔗 **Rehan Chaudhary:** [https://github.com/Rehan-Chaudhary](https://github.com/Rehan-Chaudhary)
 
 ### **Contribution Areas**
 - **🤖 AI Development:** Multi-agent pipeline design and implementation
@@ -379,7 +371,7 @@ TO CUSTOMIZE THE NEW CONTRIBUTOR:
 - **🚀 DevOps & CI/CD:** GitHub Actions, deployment automation, system optimization
 - **🧪 Quality Assurance:** Testing, performance optimization, code quality
 - **📚 Documentation:** Technical guides, API docs, deployment instructions
-- **🎯 Specialized Contribution:** [Describe the new contributor's specific area of expertise]
+- **💻 Code Optimization:** Performance improvements, code quality enhancements, and development best practices
 
 ---
 
