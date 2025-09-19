@@ -514,4 +514,5 @@ Our AI Career Skills Advisor represents the future of personalized career guidan
 
 ⭐ **Star this repository if you found it helpful!** ⭐
 
-</div>
+</div>F i r s t   c o n t r i b u t i o n   b y   A a y u s h   G a i r a  
+ 
