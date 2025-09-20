@@ -61,7 +61,8 @@ app.get('/api/v1', (req, res) => {
       assessments: '/api/v1/assessments',
       resume: '/api/v1/resume',
       recommendations: '/api/v1/recommendations',
-      judgeDemo: '/api/v1/recommendations/demo'
+      judgeDemo: '/api/v1/recommendations/demo',
+      chatbot: '/api/v1/chatbot'
     }
   });
 });
@@ -73,6 +74,7 @@ import assessmentRoutes from './routes/assessments';
 import careersRoutes from './routes/careers';
 import resumeRoutes from './routes/resume';
 import recommendationRoutes from './routes/recommendations';
+import chatbotRoutes from './routes/chatbot';
 // TODO: Add remaining routes
 // import userRoutes from './routes/users';
 
@@ -83,6 +85,7 @@ app.use('/api/v1/assessments', assessmentRoutes);
 app.use('/api/v1/careers', careersRoutes);
 app.use('/api/v1/resume', resumeRoutes);
 app.use('/api/v1/recommendations', recommendationRoutes);
+app.use('/api/v1/chatbot', chatbotRoutes);
 // TODO: Add remaining routes when created
 // app.use('/api/v1/users', userRoutes);
 

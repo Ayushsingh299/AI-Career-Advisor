@@ -10,6 +10,7 @@ import Dashboard from 'pages/Dashboard';
 import Login from 'pages/Login';
 import Demo from 'pages/Demo';
 import APIDemo from 'pages/APIDemo';
+import Chatbot from 'components/Chatbot';
 
 const theme = createTheme({
   palette: {
@@ -38,6 +39,7 @@ function App() {
               <Route path="/demo" element={<Demo />} />
               <Route path="/api-demo" element={<APIDemo />} />
             </Routes>
+            <Chatbot />
           </div>
         </Router>
       </AuthProvider>
