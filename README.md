@@ -103,8 +103,6 @@ https://photos.app.goo.gl/AtQw3dbxj7uHxoUm9
 ---
 
 ## 🎬 **Demo & Features**
-https://www.mediafire.com/file/cuhzakg9ea65s6t/PowerPoint_Slide_Show_-_%255BGenAI_Exchange_Hackathon_Prototype_Submission_2%255D_2025-09-21_15-40-55.mp4/file
-
 ### 💬 **Intelligent Conversational AI**
 Ask natural questions and receive comprehensive, expert-level responses:
 
