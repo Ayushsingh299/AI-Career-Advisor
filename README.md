@@ -79,7 +79,7 @@ Our AI Career Skills Advisor goes beyond generic career advice. It's an intellig
 ---
 
 ## 🎪 **Demo Features**
-https://photos.app.goo.gl/AtQw3dbxj7uHxoUm9
+https://drive.google.com/file/d/1fz41v-1X7y1Aa1x3Y004Xc3rKbQ0FrbM/preview
 
 ### **📈 User Testing Scenarios**
 
