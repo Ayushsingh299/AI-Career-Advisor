@@ -634,25 +634,6 @@ git push origin feature/amazing-feature
 
 ---
 
-## 📞 **Support & Contact**
-
-### **Getting Help**
-- **📖 Documentation**: Check our comprehensive docs
-- **🐛 Issues**: Report bugs on GitHub Issues
-- **💬 Discussions**: Join our GitHub Discussions
-- **📧 Email**: support@career-skills-advisor.com
-
-### **Community**
-- **🐦 Twitter**: [@CareerSkillsAI](https://twitter.com/careerskillsai)
-- **💼 LinkedIn**: [Career Skills Advisor](https://linkedin.com/company/career-skills-advisor)
-- **📺 YouTube**: [Tutorial Playlist](https://youtube.com/career-skills-advisor)
-
----
-
-## 🤝 **Contributors**
-
-We thank these amazing developers who have contributed to making the AI Career Skills Advisor a reality:
-
 <div align="center">
 
 ### 🎆 **Core Development Team**
