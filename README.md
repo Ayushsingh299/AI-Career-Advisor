@@ -22,6 +22,34 @@ Our AI Career Skills Advisor goes beyond generic career advice. It's an intellig
 
 ---
 
+## 📸 **Screenshots & Live Demo**
+
+### **🔐 Login Page**
+![Login Page](https://i.supaimg.com/22842a60-788f-433a-b1dd-c15742f33a72.jpg)
+*Secure authentication interface with modern design*
+
+### **🏠 Home Dashboard**
+![Home Page](https://i.supaimg.com/4a202b31-a22a-4da4-bad3-9964eb8626b6.jpg)
+*Clean, intuitive dashboard with career guidance overview*
+
+### **💬 AI Chatbot (Help Desk)**
+![Chatbot Interface](https://i.supaimg.com/14582c9d-eae1-425d-9224-ab2ae4f40122.jpg)
+*Intelligent conversational AI providing personalized career advice*
+
+### **🔌 API Demo - Career Guidance**
+![API Demo 1](https://i.supaimg.com/ce8b3226-2b0d-4c7d-ab5c-2473c87666cc.jpg)
+*Real-time API responses with comprehensive career insights*
+
+### **🚀 API Demo - Technical Skills**
+![API Demo 2](https://i.supaimg.com/5201cfe5-ea7e-4373-bee6-97ad6fef06e9.jpg)
+*Advanced AI responses for technology-specific queries*
+
+### **📊 Analytics Dashboard**
+![Dashboard](https://i.supaimg.com/1d226342-61ba-4d20-846b-bdff59294c82.jpg)
+*Comprehensive analytics and progress tracking interface*
+
+---
+
 ## 🎬 **Demo & Features**
 
 ### 💬 **Intelligent Conversational AI**
@@ -486,6 +514,34 @@ git push origin feature/amazing-feature
 - **🐦 Twitter**: [@CareerSkillsAI](https://twitter.com/careerskillsai)
 - **💼 LinkedIn**: [Career Skills Advisor](https://linkedin.com/company/career-skills-advisor)
 - **📺 YouTube**: [Tutorial Playlist](https://youtube.com/career-skills-advisor)
+
+---
+
+## 👥 **Contributors**
+
+We thank these amazing developers who have contributed to making the AI Career Skills Advisor a reality:
+
+<div align="center">
+
+| Contributor | GitHub Profile | Role |
+|------------|----------------|------|
+| **Aayush Gaira** | [![GitHub](https://img.shields.io/badge/GitHub-Aayush--Gaira-blue?style=flat&logo=github)](https://github.com/Aayush-Gaira) | Core Developer & AI Engine |
+| **Himanshu** | [![GitHub](https://img.shields.io/badge/GitHub-himaaanshuu-blue?style=flat&logo=github)](https://github.com/himaaanshuu?tab=repositories) | Frontend Development |
+| **Jagmohan Jha** | [![GitHub](https://img.shields.io/badge/GitHub-jagmohanjha-blue?style=flat&logo=github)](https://github.com/jagmohanjha) | Backend Architecture |
+| **Rehan Chaudhary** | [![GitHub](https://img.shields.io/badge/GitHub-Rehan--Chaudhary-blue?style=flat&logo=github)](https://github.com/Rehan-Chaudhary) | DevOps & Infrastructure |
+
+</div>
+
+### **🏆 Team Achievements**
+- 🚀 **5,000+ lines of code** written collaboratively
+- 🔧 **Advanced AI engine** with Google-level responses
+- 🎨 **Modern UI/UX** with responsive design
+- 🔌 **Robust API architecture** with comprehensive error handling
+- 📊 **Analytics dashboard** with real-time insights
+- 📁 **Complete documentation** and deployment guides
+
+### **🚀 Want to Contribute?**
+We welcome new contributors! Check our [Contributing Guidelines](#-contributing) to get started.
 
 ---
 
