@@ -75,7 +75,7 @@ export async function improveWithAI({ current, type }) {
     Make it more impactful, quantifiable, and aligned with industry standards.
     Current content: "${current}"
 
-    Requirements:
+    Requirements:-
     1. Use action verbs
     2. Include metrics and results where possible
     3. Highlight relevant technical skills

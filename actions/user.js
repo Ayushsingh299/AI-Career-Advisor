@@ -16,7 +16,7 @@ export async function updateUser(data) {
   if (!user) throw new Error("User not found");
 
   try {
-    // Start a transaction to handle both operations
+    // Start a transaction to handle both operation
     const result = await db.$transaction(
       async (tx) => {
         // First check if industry exists

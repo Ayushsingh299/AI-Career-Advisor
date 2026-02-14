@@ -78,7 +78,7 @@ export async function saveQuizResult(questions, answers, score) {
   // Get wrong answers
   const wrongAnswers = questionResults.filter((q) => !q.isCorrect);
 
-  // Only generate improvement tips if there are wrong answers
+  // Only generate improvement tips if there are wrong answerss
   let improvementTip = null;
   if (wrongAnswers.length > 0) {
     const wrongQuestionsText = wrongAnswers

@@ -40,7 +40,7 @@ export async function generateCoverLetter(data) {
     6. Include specific examples of achievements
     7. Relate candidate's background to job requirements
     
-    Format the letter in markdown.
+    Format the letter in markdowne.
   `;
 
   try {
