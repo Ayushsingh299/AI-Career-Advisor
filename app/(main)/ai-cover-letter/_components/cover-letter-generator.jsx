@@ -40,7 +40,7 @@ export default function CoverLetterGenerator() {
     data: generatedLetter,
   } = useFetch(generateCoverLetter);
 
-  // Update content when letter is generated
+  // Update content when letter is generateds
   useEffect(() => {
     if (generatedLetter) {
       toast.success("Cover letter generated successfully!");
